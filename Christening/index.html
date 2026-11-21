@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yunique Laine (YL) — 1st Birthday &amp; Christening Invitation</title>
+  <meta name="description" content="Join us to witness the Christening and celebrate the 1st Birthday of Yunique Laine Labiano Acance (YL) on December 19, 2026 in Tagudin, Ilocos Sur." />
+
+  <!-- Open Graph / Messenger & Facebook Link Preview -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Yunique Laine (YL) - 1st Birthday and Christening" />
+  <meta property="og:title" content="Yunique Laine (YL) - 1st Birthday and Christening Invitation" />
+  <meta property="og:description" content="Saturday, December 19, 2026 • 8:00 AM • Tagudin, Ilocos Sur. Tap to view invitation and RSVP." />
+  <meta property="og:url" content="https://arcscollectionsph.vercel.app/" />
+  <meta property="og:image" content="https://arcscollectionsph.vercel.app/assets/photos/og1.png?v=1" />
+  <meta property="og:image:secure_url" content="https://arcscollectionsph.vercel.app/assets/photos/og1.png?v=1" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Yunique Laine (YL) 1st Birthday and Christening Invitation Preview" />
+
+  <!-- Twitter / X Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Yunique Laine (YL) - 1st Birthday and Christening Invitation" />
+  <meta name="twitter:description" content="Saturday, December 19, 2026 • 8:00 AM • Tagudin, Ilocos Sur." />
+  <meta name="twitter:image" content="https://arcscollectionsph.vercel.app/assets/photos/og1.png?v=1" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body class="locked">
+
+  <!-- Floral Background Picture + Soft Pink & Yellow Glow + Animated Flowers -->
+  <div class="ambient-bg" aria-hidden="true">
+    <img
+      class="bg-photo"
+      data-candidates="assets/photos/background.jpg,assets/photos/background.png,assets/photos/Background.jpg,assets/photos/Background.png,assets/photos/bg-floral.jpg,assets/photos/bg-floral.png,photos/background.jpg,photos/bg-floral.jpg"
+      src="assets/photos/background.jpg"
+      alt=""
+      onerror="this.style.display='none'"
+    />
+    <div class="bg-photo-tint"></div>
+    <span class="orb orb-1"></span>
+    <span class="orb orb-2"></span>
+    <span class="orb orb-3"></span>
+    <div id="flower-container" class="flower-container"></div>
+  </div>
+
+  <!-- Floral Envelope Front Page (First Screen) -->
+  <div id="envelope-gate" class="envelope-gate" role="dialog" aria-modal="true" aria-label="Christening and first birthday invitation envelope">
+    <div class="gate-editorial-stage">
+      <header class="gate-header">
+        <p class="gate-script">Dearest</p>
+        <p class="gate-recipient">FAMILY, FRIENDS &amp; GODPARENTS</p>
+        <h2 class="gate-headline">BLESSED &amp; ONE</h2>
+
+        <div class="gate-divider" aria-hidden="true">
+          <span class="divider-line"></span>
+          <span class="divider-diamonds">
+            <i></i><i></i><i></i><i></i>
+          </span>
+          <span class="divider-line"></span>
+        </div>
+
+        <p class="gate-event-kicker">YUNIQUE LAINE LABIANO ACANCE (YL) • 1ST BIRTHDAY &amp; CHRISTENING</p>
+        <p class="gate-event-date">12.19.2026 • 8:00 AM</p>
+      </header>
+
+      <!-- Blossom Envelope with Gold Wax Seal -->
+      <div class="envelope-scene">
+        <div class="velvet-envelope" id="velvet-envelope">
+          <div class="envelope-letter-peek" aria-hidden="true">
+            <span>1st Birthday &amp; Christening</span>
+            <strong>Yunique Laine (YL)</strong>
+          </div>
+
+          <div class="envelope-back"></div>
+          <div class="envelope-flap-top"></div>
+          <div class="envelope-pocket"></div>
+
+          <button
+            id="open-invitation-btn"
+            class="wax-seal-btn"
+            type="button"
+            aria-label="Tap the gold wax seal to open Yunique Laine's invitation"
+          >
+            <span class="wax-seal-outer" aria-hidden="true">
+              <span class="wax-seal-inner">
+                <span class="wax-monogram">YL</span>
+              </span>
+            </span>
+            <span class="wax-tap-hint">Tap Seal to Open</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating Audio Bar -->
+  <aside id="audio-bar" class="audio-bar hidden" aria-label="Background music controls">
+    <button id="music-toggle-btn" class="audio-btn" type="button">
+      <span id="music-status-text">Play Music</span>
+    </button>
+    <span class="track-pill">Isn't She Lovely (Acoustic) — Mount Hayes</span>
+  </aside>
+
+  <main id="main-content" class="main-content">
+
+    <!-- 01. CELEBRANT HERO & PHOTO SLIDESHOW (Photo 1 to Photo 7) -->
+    <section id="celebrant" class="section hero-section">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="badge text-reveal" style="--stagger: 0.05s;">Pink &amp; Yellow Floral Celebration</span>
+          <p class="kicker text-reveal" style="--stagger: 0.15s;">1st Birthday &amp; Christening</p>
+          <h1 class="celebrant-name text-reveal" style="--stagger: 0.25s;">
+            Yunique Laine <em>Labiano Acance</em>
+          </h1>
+          <p class="nickname-tag text-reveal" style="--stagger: 0.3s;">
+            Affectionately called <strong>“YL”</strong>
+          </p>
+          <p class="hero-date text-reveal" style="--stagger: 0.35s;">
+            Saturday, December 19, 2026 • 8:00 AM • Tagudin, Ilocos Sur
+          </p>
+          <div class="hero-actions text-reveal" style="--stagger: 0.45s;">
+            <a href="#countdown" class="btn-primary">View Countdown</a>
+            <a href="#rsvp" class="btn-ghost">RSVP Now</a>
+          </div>
+        </div>
+
+        <div class="portrait-card text-reveal" style="--stagger: 0.3s;">
+          <div class="slideshow" id="debut-slideshow" aria-label="Celebrant photo slideshow">
+            <div class="slides-track">
+              <div class="slide active">
+                <img
+                  data-candidates="assets/photos/Photo%201.jpg,assets/photos/Photo%201.jpeg,assets/photos/photo%201.jpg,assets/photos/photo%201.jpeg,assets/photos/Photo%201.png,photos/Photo%201.jpg"
+                  src="assets/photos/Photo%201.jpg"
+                  alt="Yunique Laine (YL) Photo 1"
+                />
+              </div>
+              <div class="slide">
+                <img
+                  data-candidates="assets/photos/Photo%202.jpg,assets/photos/Photo%202.jpeg,assets/photos/photo%202.jpg,assets/photos/photo%202.jpeg,assets/photos/Photo%202.png,photos/Photo%202.jpg"
+                  src="assets/photos/Photo%202.jpg"
+                  alt="Yunique Laine (YL) Photo 2"
+                />
+              </div>
+              <div class="slide">
+                <img
+                  data-candidates="assets/photos/Photo%203.jpg,assets/photos/Photo%203.jpeg,assets/photos/photo%203.jpg,assets/photos/photo%203.jpeg,assets/photos/Photo%203.png,photos/Photo%203.jpg"
+                  src="assets/photos/Photo%203.jpg"
+                  alt="Yunique Laine (YL) Photo 3"
+                />
+              </div>
+              <div class="slide">
+                <img
+                  data-candidates="assets/photos/Photo%204.jpg,assets/photos/Photo%204.jpeg,assets/photos/photo%204.jpg,assets/photos/photo%204.jpeg,assets/photos/Photo%204.png,photos/Photo%204.jpg"
+                  src="assets/photos/Photo%204.jpg"
+                  alt="Yunique Laine (YL) Photo 4"
+                />
+              </div>
+              <div class="slide">
+                <img
+                  data-candidates="assets/photos/Photo%205.jpg,assets/photos/Photo%205.jpeg,assets/photos/photo%205.jpg,assets/photos/photo%205.jpeg,assets/photos/Photo%205.png,photos/Photo%205.jpg"
+                  src="assets/photos/Photo%205.jpg"
+                  alt="Yunique Laine (YL) Photo 5"
+                />
+              </div>
+              <div class="slide">
+                <img
+                  data-candidates="assets/photos/Photo%206.jpg,assets/photos/Photo%206.jpeg,assets/photos/photo%206.jpg,assets/photos/photo%206.jpeg,assets/photos/Photo%206.png,photos/Photo%206.jpg"
+                  src="assets/photos/Photo%206.jpg"
+                  alt="Yunique Laine (YL) Photo 6"
+                />
+              </div>
+              <div class="slide">
+                <img
+                  data-candidates="assets/photos/Photo%207.jpg,assets/photos/Photo%207.jpeg,assets/photos/photo%207.jpg,assets/photos/photo%207.jpeg,assets/photos/Photo%207.png,photos/Photo%207.jpg"
+                  src="assets/photos/Photo%207.jpg"
+                  alt="Yunique Laine (YL) Photo 7"
+                />
+              </div>
+            </div>
+
+            <button type="button" class="slide-btn prev-btn" id="debut-prev" aria-label="Previous photo">‹</button>
+            <button type="button" class="slide-btn next-btn" id="debut-next" aria-label="Next photo">›</button>
+
+            <div class="slide-dots" id="debut-dots" aria-label="Slideshow navigation"></div>
+          </div>
+
+          <div class="portrait-caption">
+            <span> • <strong id="debut-counter">1 / 7</strong></span>
+            <strong>Yunique Laine (YL)</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 02. COUNTDOWN SECTION -->
+    <section id="countdown" class="section section-alt reveal">
+      <div class="container narrow-container countdown-center">
+        <span class="section-label text-reveal">02 / Counting Down</span>
+        <h2 class="text-reveal">Until <em>YL’s Special Day</em></h2>
+        <p class="section-desc center-desc text-reveal">
+          Saturday, December 19, 2026 at 8:00 AM • Tagudin, Ilocos Sur
+        </p>
+
+        <div class="countdown-grid text-reveal" id="countdown-timer" aria-live="polite">
+          <div class="time-box">
+            <span id="cd-days">00</span>
+            <small>Days</small>
+          </div>
+          <div class="time-box">
+            <span id="cd-hours">00</span>
+            <small>Hours</small>
+          </div>
+          <div class="time-box">
+            <span id="cd-minutes">00</span>
+            <small>Minutes</small>
+          </div>
+          <div class="time-box">
+            <span id="cd-seconds">00</span>
+            <small>Seconds</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 03. INVITATION MESSAGE -->
+    <section id="message" class="section reveal">
+      <div class="container narrow-container">
+        <span class="section-label text-reveal">03 / Invitation Message</span>
+        <h2 class="text-reveal">A Blooming <em>Blessing</em></h2>
+        <p class="lead-message text-reveal">
+          With grateful hearts and joy as bright as pink and yellow blossoms, we warmly invite you
+          to witness the Christening and celebrate the 1st Birthday of our sweet little one,
+          <strong>Yunique Laine Labiano Acance (YL)</strong>. Join us as she receives God’s grace
+          and steps into another year filled with love, laughter, and sunshine.
+        </p>
+      </div>
+    </section>
+
+    <!-- 04. EVENT DETAILS -->
+    <section id="details" class="section section-alt reveal">
+      <div class="container">
+        <span class="section-label text-reveal">04 / Event Details</span>
+        <h2 class="text-reveal">Celebration <em>Details</em></h2>
+
+        <div class="cards-3">
+          <article class="info-card text-reveal">
+            <span class="info-tag">Date &amp; Time</span>
+            <strong>December 19, 2026</strong>
+            <small>Saturday • 8:00 AM</small>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 05. CEREMONY (church 1 to 3) & RECEPTION VENUES (No Image in Reception) -->
+    <section id="venue" class="section reveal">
+      <div class="container">
+        <span class="section-label text-reveal">05 / Ceremony &amp; Reception</span>
+        <h2 class="text-reveal">Venues in <em>Tagudin, Ilocos Sur</em></h2>
+        <p class="section-desc text-reveal">
+          Join us first for the Christening ceremony at <strong>8:00 AM</strong>, followed by our birthday reception celebration.
+        </p>
+
+        <div class="venue-cards-grid">
+          <!-- Ceremony Card with church 1 to 3 Slideshow (church 1 is PNG) -->
+          <article class="venue-card text-reveal">
+            <div class="venue-badge">Ceremony • 8:00 AM</div>
+            <h3>Saint Augustine Parish Church</h3>
+            <p class="venue-address">Tagudin, Ilocos Sur</p>
+
+            <div class="slideshow venue-card-slideshow" id="church-slideshow" aria-label="Saint Augustine Parish Church photos">
+              <div class="slides-track">
+                <div class="slide active">
+                  <img
+                    data-candidates="assets/photos/church/church%201.png,assets/photos/church/Church%201.png,assets/photos/church/church%201.jpg,assets/photos/church/Church%201.jpg,photos/church/church%201.png,photos/church/church%201.jpg"
+                    src="assets/photos/church/church%201.png"
+                    alt="Saint Augustine Parish Church 1"
+                  />
+                </div>
+                <div class="slide">
+                  <img
+                    data-candidates="assets/photos/church/church%202.jpg,assets/photos/church/church%202.jpeg,assets/photos/church/Church%202.jpg,assets/photos/church/church%202.png,assets/photos/church/church%202.jpg"
+                    src="assets/photos/church/church%202.jpg"
+                    alt="Saint Augustine Parish Church 2"
+                  />
+                </div>
+                <div class="slide">
+                  <img
+                    data-candidates="assets/photos/church/church%203.jpg,assets/photos/church/church%203.jpeg,assets/photos/church/Church%203.jpg,assets/photos/church/church%203.png,assets/photos/church/church%203.jpg"
+                    src="assets/photos/church/church%203.jpg"
+                    alt="Saint Augustine Parish Church 3"
+                  />
+                </div>
+              </div>
+              <button type="button" class="slide-btn prev-btn" id="church-prev" aria-label="Previous church photo">‹</button>
+              <button type="button" class="slide-btn next-btn" id="church-next" aria-label="Next church photo">›</button>
+              <div class="slide-dots" id="church-dots" aria-label="Church slideshow indicators"></div>
+            </div>
+
+            <div class="venue-actions">
+              <a
+                href="https://maps.app.goo.gl/1PPWjPvoCMyYhRQx5?g_st=ic"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn-primary"
+              >
+                Open Ceremony Map ↗
+              </a>
+            </div>
+
+            <div class="qr-box">
+              <img
+                src="https://api.qrserver.com/v1/create-qr-code/?size=140x140&data=https%3A%2F%2Fmaps.app.goo.gl%2F1PPWjPvoCMyYhRQx5%3Fg_st%3Dic"
+                alt="QR Code for Saint Augustine Parish Church, Tagudin, Ilocos Sur"
+                width="112"
+                height="112"
+              />
+              <div>
+                <strong>Ceremony Location QR</strong>
+                <p>Scan to navigate to Saint Augustine Parish Church.</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Reception Card (No Venue Image, Map & QR Only) -->
+          <article class="venue-card venue-card-reception text-reveal">
+            <div>
+              <div class="venue-badge venue-badge-yellow">Reception</div>
+              <h3>Ranget Covered Court</h3>
+              <p class="venue-address">Brgy. Ranget, Tagudin, Ilocos Sur</p>
+              <p class="venue-note">
+                Following the Christening ceremony at Saint Augustine Parish Church, please proceed to
+                Ranget Covered Court for lunch, fellowship, and YL’s 1st birthday celebration.
+              </p>
+            </div>
+
+            <div>
+              <div class="venue-actions">
+                <a
+                  href="https://maps.app.goo.gl/yW22P1pzPFMnuQAH9?g_st=ic"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-primary"
+                >
+                  Open Reception Map ↗
+                </a>
+              </div>
+
+              <div class="qr-box">
+                <img
+                  src="https://api.qrserver.com/v1/create-qr-code/?size=140x140&data=https%3A%2F%2Fmaps.app.goo.gl%2FyW22P1pzPFMnuQAH9%3Fg_st%3Dic"
+                  alt="QR Code for Ranget Covered Court, Brgy. Ranget, Tagudin, Ilocos Sur"
+                  width="112"
+                  height="112"
+                />
+                <div>
+                  <strong>Reception Location QR</strong>
+                  <p>Scan to navigate to Ranget Covered Court.</p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 06. MONETARY GIFT WITH ANIMATED GIFT BOX -->
+    <section id="monetary-gift" class="section section-alt reveal">
+      <div class="container narrow-container">
+        <div class="gift-panel text-reveal">
+          <span class="section-label">06 / Gift Ideas</span>
+
+          <!-- Animated Floral & Gold Gift Box -->
+          <div class="gift-box-stage" aria-hidden="true">
+            <div class="gift-box">
+              <div class="gift-lid">
+                <span class="gift-bow-left"></span>
+                <span class="gift-bow-right"></span>
+                <span class="gift-bow-knot"></span>
+              </div>
+              <div class="gift-body">
+                <span class="gift-ribbon-v"></span>
+                <span class="gift-ribbon-h"></span>
+              </div>
+            </div>
+          </div>
+
+          <p class="gift-message">
+            With all that we have, we've been truly blessed. Your presence
+            and prayers are all that we request. But if you desire to give,
+            nonetheless a monetary gift is one we suggest.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 07. DRESS CODE WITH ANIMATED CLOTHES -->
+    <section id="dresscode" class="section reveal">
+      <div class="container narrow-container">
+        <div class="gift-panel dresscode-panel text-reveal">
+          <span class="section-label">07 / Dress Code</span>
+          <h2>Casual &amp; <em>Comfortable</em></h2>
+
+          <!-- Animated Clothes on Hanger -->
+          <div class="clothes-stage" aria-hidden="true">
+            <div class="clothes-sway">
+              <svg viewBox="0 0 140 120" width="126" height="108" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M70 12C70 7.5 74.5 5 78 8C81 10.5 79.5 15 74 17L70 19" stroke="#B58214" stroke-width="3.2" stroke-linecap="round"/>
+                <path d="M70 19L30 40H110L70 19Z" stroke="#D4A834" stroke-width="3" stroke-linejoin="round" fill="#FFFDF7"/>
+                <path d="M44 40L32 56L44 63L48 53V98C48 101.3 50.7 104 54 104H86C89.3 104 92 101.3 92 98V53L96 63L108 56L96 40H82C80 46 75.5 49 70 49C64.5 49 60 46 58 40H44Z" fill="url(#dressGrad)" stroke="#C94B7B" stroke-width="2.4" stroke-linejoin="round"/>
+                <rect x="48" y="66" width="44" height="8" rx="3" fill="#FFE066" stroke="#D4A834" stroke-width="1.5"/>
+                <circle cx="70" cy="70" r="6" fill="#FF85B3" stroke="#FFFDF7" stroke-width="1.5"/>
+                <circle cx="70" cy="70" r="2.2" fill="#FFF3B0"/>
+                <defs>
+                  <linearGradient id="dressGrad" x1="32" y1="40" x2="108" y2="104" gradientUnits="userSpaceOnUse">
+                    <stop offset="0%" stop-color="#FFD6E7"/>
+                    <stop offset="100%" stop-color="#FF9EC2"/>
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+          </div>
+
+          <p class="gift-message">
+            No strict dress code—simply wear whatever makes you feel comfortable and ready to celebrate this special day with us.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 08. YUNIQUE LAINE GALLERY (Photo 1 to Photo 7) -->
+    <section id="gallery" class="section section-alt reveal">
+      <div class="container">
+        <span class="section-label text-reveal">08 / Precious Moments</span>
+        <h2 class="text-reveal">Yunique Laine’s <em>Gallery</em></h2>
+        <p class="section-desc text-reveal">
+          Seven sweet snapshots celebrating our little sunshine as she turns one. Tap any photo to view larger.
+        </p>
+
+        <div class="gallery-split-grid">
+          <!-- Left Column -->
+          <div class="gallery-col">
+            <figure class="gallery-item text-reveal" data-gallery-index="0">
+              <img
+                data-candidates="assets/photos/Photo%201.jpg,assets/photos/Photo%201.jpeg,assets/photos/photo%201.jpg,assets/photos/photo%201.jpeg,assets/photos/Photo%201.png,photos/Photo%201.jpg"
+                src="assets/photos/Photo%201.jpg"
+                alt="Yunique Laine Photo 1"
+              />
+              <figcaption>Moment 01 • Yunique Laine</figcaption>
+            </figure>
+
+            <figure class="gallery-item text-reveal" data-gallery-index="1">
+              <img
+                data-candidates="assets/photos/Photo%202.jpg,assets/photos/Photo%202.jpeg,assets/photos/photo%202.jpg,assets/photos/photo%202.jpeg,assets/photos/Photo%202.png,photos/Photo%202.jpg"
+                src="assets/photos/Photo%202.jpg"
+                alt="Yunique Laine Photo 2"
+              />
+              <figcaption>Moment 02 • Sweet Smiles</figcaption>
+            </figure>
+
+            <figure class="gallery-item text-reveal" data-gallery-index="2">
+              <img
+                data-candidates="assets/photos/Photo%203.jpg,assets/photos/Photo%203.jpeg,assets/photos/photo%203.jpg,assets/photos/photo%203.jpeg,assets/photos/Photo%203.png,photos/Photo%203.jpg"
+                src="assets/photos/Photo%203.jpg"
+                alt="Yunique Laine Photo 3"
+              />
+              <figcaption>Moment 03 • Little Blossom</figcaption>
+            </figure>
+          </div>
+
+          <!-- Right Column -->
+          <div class="gallery-col">
+            <figure class="gallery-item text-reveal" data-gallery-index="3">
+              <img
+                data-candidates="assets/photos/Photo%204.jpg,assets/photos/Photo%204.jpeg,assets/photos/photo%204.jpg,assets/photos/photo%204.jpeg,assets/photos/Photo%204.png,photos/Photo%204.jpg"
+                src="assets/photos/Photo%204.jpg"
+                alt="Yunique Laine Photo 4"
+              />
+              <figcaption>Moment 04 • Pure Joy</figcaption>
+            </figure>
+
+            <figure class="gallery-item text-reveal" data-gallery-index="4">
+              <img
+                data-candidates="assets/photos/Photo%205.jpg,assets/photos/Photo%205.jpeg,assets/photos/photo%205.jpg,assets/photos/photo%205.jpeg,assets/photos/Photo%205.png,photos/Photo%205.jpg"
+                src="assets/photos/Photo%205.jpg"
+                alt="Yunique Laine Photo 5"
+              />
+              <figcaption>Moment 05 • Sunshine Days</figcaption>
+            </figure>
+
+            <figure class="gallery-item text-reveal" data-gallery-index="5">
+              <img
+                data-candidates="assets/photos/Photo%206.jpg,assets/photos/Photo%206.jpeg,assets/photos/photo%206.jpg,assets/photos/photo%206.jpeg,assets/photos/Photo%206.png,photos/Photo%206.jpg"
+                src="assets/photos/Photo%206.jpg"
+                alt="Yunique Laine Photo 6"
+              />
+              <figcaption>Moment 06 • Turning One</figcaption>
+            </figure>
+
+            <figure class="gallery-item text-reveal" data-gallery-index="6">
+              <img
+                data-candidates="assets/photos/Photo%207.jpg,assets/photos/Photo%207.jpeg,assets/photos/photo%207.jpg,assets/photos/photo%207.jpeg,assets/photos/Photo%207.png,photos/Photo%207.jpg"
+                src="assets/photos/Photo%207.jpg"
+                alt="Yunique Laine Photo 7"
+              />
+              <figcaption>Moment 07 • Blessed &amp; One</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 09. GODPARENTS (NINONG & NINANG) -->
+    <section id="godparents" class="section reveal">
+      <div class="container">
+        <span class="section-label text-reveal">09 / Principal &amp; Baptismal Sponsors</span>
+        <h2 class="text-reveal">Our Beloved <em>Godparents</em></h2>
+        <p class="section-desc text-reveal">
+          Guiding and praying for <strong>Yunique Laine (YL)</strong> as she grows in faith and joy.
+        </p>
+
+        <div class="godparents-grid">
+
+          <article class="godparent-card text-reveal">
+
+            <ul class="two-col-list">
+              <li>FINSP Eligio C. Calip Jr.</li>
+              <li>SFO3 Zaldy R. Rapanut</li>
+              <li>SFO2 Angelito B. Isla</li>
+              <li>FO2 Jeff Winston A. Laberinto</li>
+              <li>FO2 Gerald Jet D. Jallorina</li>
+              <li>FO1 Marvin Q. Gabaon</li>
+              <li>FO1 Louis Reyn S. Diga</li>
+              <li>FO1 John Michael R. Gaburno</li>
+              <li>FO1 Christian Joy B. Hermenegildo</li>
+              <li>FO1 John Renz Anthony Leal</li>
+              <li>FO1 Rommel B. Basa</li>
+              <li>FO1 Marione Renz Aquino</li>
+              <li>Emil John L. Labiano</li>
+              <li>Renz Marlon Acance</li>
+              <li>JR Feliciano</li>
+              <li>Gian Carlo Lazo</li>
+              <li>Dan Jerick Leti</li>
+              <li>William Batac</li>
+              <li>Bienvenido Motas</li>
+              <li>Johnlee Calibuso</li>
+              <li>Reyniel Lutchina</li>
+              <li>Collins Sabado</li>
+              <li>Neil Erwin Maynes</li>
+              <li>John Emmanuel Laroco</li>
+              <li>Emir Tolorio</li>
+              <li>Jenius Acance</li>
+              <li>Rommel Acance</li>
+              <li>Bradley Maynes</li>
+              <li>Mitchelle Maynes</li>
+              <li>Ken Andrew Lim</li>
+              <li>Rolando Zibunga Jr.</li>
+              <li>Elvis Jove Jr.</li>
+              <li>Edmar Isam Ellorico</li>
+              <li>Dexter James Cuaresma</li>
+              <li>Mari Krystian Eriq Manzano</li>
+              <li>Brian Ballocanag</li>
+              <li>Llendl Lodia</li>
+              <li>Renz Gerold Andaya</li>
+              <li>Karl Jayson Laza</li>
+              <li>Kenneth Joe Espinoza</li>
+              <li>Jeff Clifford Dela Rosa</li>
+              <li>Ariel Magat</li>
+              <li>Keith Ruiz</li>
+              <li>Rodel Tangalin</li>
+              <li>Mike Fernandez</li>
+              <li>John Paul Balicha</li>
+            </ul>
+          </article>
+
+
+          <article class="godparent-card text-reveal">
+
+            <ul class="two-col-list">
+              <li>SFO2 Hazel Balala</li>
+              <li>FO2 Melanie Grace Catbagan</li>
+              <li>FO2 Genesis Joy B. Isabelo</li>
+              <li>FO1 Noreen-May L. Moster</li>
+              <li>FO1 Cristelyn Mamuad</li>
+              <li>FO1 Jeanette Hulog</li>
+              <li>FO1 Maria Theresa Rivera</li>
+              <li>Jamie Acance De Vera</li>
+              <li>Juliana Lynette Cacho</li>
+              <li>Regie Anne Maynes</li>
+              <li>Rizalyn Labiano</li>
+              <li>Irah Lyne Labiano</li>
+              <li>Ashley Jenn Labiano</li>
+              <li>Gerie Rose Manzano</li>
+              <li>Limel Joy N. Binay-an</li>
+              <li>Annette Solis</li>
+              <li>Kathrynne Ramos</li>
+              <li>Elaine Mae Lascota</li>
+              <li>Janica Monis-Layco</li>
+              <li>Tarah Lois Muego</li>
+              <li>Christine Joy Tilang</li>
+              <li>Geraldine Licudine</li>
+              <li>Maricar Clarisse Lazaga-Chuan</li>
+              <li>Gretchen Velasco</li>
+              <li>Diocelle Ann Dela Cruz</li>
+              <li>Shalimar Costales</li>
+              <li>Debie Ann Leal</li>
+              <li>Yesha Nicole Chua</li>
+              <li>Marjorie Raguindin</li>
+              <li>Desiree Barnachea Acosta</li>
+              <li>Princess Almeda Lorenzana</li>
+              <li>Nicole Gaudia</li>
+              <li>Kathleen Asido</li>
+              <li>Jhoana Marie De Guzman</li>
+              <li>Ivy Nicole Layco</li>
+              <li>Mary Joy Larioza</li>
+              <li>Xyra Jacinth Agne</li>
+              <li>Maria Virginia Cortez</li>
+              <li>Precious Salibad</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 10. RSVP & ATTENDANCE -->
+    <section id="rsvp" class="section section-alt reveal">
+      <div class="container narrow-container">
+        <div class="rsvp-card-box text-reveal">
+          <span class="section-label rsvp-eyebrow">10 / Kindly Respond</span>
+          <h2 class="rsvp-heading">RSVP &amp; <em>ATTENDANCE</em></h2>
+
+          <form id="rsvp-form" class="rsvp-form">
+            <div class="field">
+              <label for="fullName">Your Full Name</label>
+              <input id="fullName" name="fullName" type="text" required placeholder="Enter your full name" />
+            </div>
+
+            <div class="field">
+              <label>Will you grace us with your presence?</label>
+              <div class="radio-group">
+                <label class="radio-option">
+                  <input type="radio" name="attendance" value="Yes, I would love to attend." required />
+                  <span>Yes, I would love to attend.</span>
+                </label>
+
+                <label class="radio-option">
+                  <input type="radio" name="attendance" value="Yes, I will attend with my kid/s." />
+                  <span>Yes, I will attend with my kid/s.</span>
+                </label>
+
+                <label class="radio-option">
+                  <input type="radio" name="attendance" value="Declines with regret." />
+                  <span>Declines with regret.</span>
+                </label>
+              </div>
+            </div>
+
+            <!-- Dynamic Kid/s Name(s) Section -->
+            <div id="kids-section" class="field hidden">
+              <label>Kid/s Name(s)</label>
+              <div id="kids-inputs-list" class="kids-inputs-list">
+                <div class="kid-row">
+                  <input type="text" name="kidName[]" placeholder="Kid 1 Full Name" />
+                </div>
+              </div>
+              <button type="button" id="add-kid-btn" class="add-kid-btn">+ Add Another Kid</button>
+            </div>
+
+            <!-- Companion Name -->
+            <div id="companion-section" class="field">
+              <label for="companionName">Companion Name (If bringing an adult companion)</label>
+              <input id="companionName" name="companionName" type="text" placeholder="Enter companion's name (optional)" />
+            </div>
+
+            <!-- Guest & Gift Note -->
+            <div class="rsvp-policy-note">
+              <span aria-hidden="true">🌸</span>
+              <p>
+                <strong>Note:</strong> Please confirm your headcount so we can prepare for your seating.
+              </p>
+            </div>
+
+            <button type="submit" id="rsvp-submit-btn" class="confirm-rsvp-btn">CONFIRM RSVP</button>
+            <p id="rsvp-status" class="rsvp-status" aria-live="polite"></p>
+          </form>
+
+          <p class="powered-by">Powered by ARC's Collection </p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>Yunique Laine Labiano Acance (YL) • Dec 19, 2026 • Tagudin, Ilocos Sur</p>
+      <a href="#celebrant">Back to Top ↑</a>
+    </div>
+  </footer>
+
+  <!-- Click-to-Enlarge Gallery Lightbox Modal -->
+  <div id="gallery-lightbox" class="lightbox-modal hidden" role="dialog" aria-modal="true" aria-label="Enlarged gallery photo viewer">
+    <button type="button" id="lightbox-close" class="lightbox-close" aria-label="Close photo viewer">×</button>
+    <button type="button" id="lightbox-prev" class="lightbox-nav lightbox-prev" aria-label="Previous gallery photo">‹</button>
+
+    <div class="lightbox-stage">
+      <img id="lightbox-img" src="" alt="" />
+      <div class="lightbox-meta">
+        <p id="lightbox-caption"></p>
+        <span id="lightbox-counter">1 / 7</span>
+      </div>
+    </div>
+
+    <button type="button" id="lightbox-next" class="lightbox-nav lightbox-next" aria-label="Next gallery photo">›</button>
+  </div>
+
+  <!-- Background Audio: Isn't She Lovely (Acoustic Version) by Mount Hayes -->
+  <audio id="bg-audio" loop preload="auto">
+    <source src="assets/audio/isnt-she-lovely-acoustic-mount-hayes.mp3" type="audio/mpeg" />
+  </audio>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
